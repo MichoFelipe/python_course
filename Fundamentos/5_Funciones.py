@@ -11,7 +11,7 @@ mensaje = "Python es muy facil"
 print(mensaje.replace('facil', 'xD'))
 
 # Funcion para cambiar el texto a mayúsculas
-nombre = "aureliano"
+nombre = "julieta"
 print(nombre.upper())
 
 # Funcion para mostrar la lista invertida

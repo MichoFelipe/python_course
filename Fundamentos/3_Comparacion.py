@@ -1,7 +1,7 @@
 # Comparacion Simple
-edad = 11
+edad = 10
 if edad == 18 :
-    print("Aure ya es adulto")
+    print("Julieta ya es adulta")
 
 # Comparacion con dos variables
 edad = 9

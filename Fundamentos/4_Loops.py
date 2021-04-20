@@ -1,12 +1,35 @@
-# Bucle FOR
-for contador in range(1,11):
-    print("Tarea ", contador)
+# Bucle FOR usando list
+notas_alumnos = [17,15,12,5]
+print("nota 1: ", notas_alumnos[0])
+print("nota 2: ", notas_alumnos[1])
+
+for nota in notas_alumnos:
+    print("nota: ", nota)
+
+# Bucle FOR con Dictionaries
+usuario_1 = {"user":"admin","id":1}
+usuario_2 = {"user":"invitado","id":2}
+usuarios = [usuario_1, usuario_2]
+for usuario in usuarios:
+    print("Usuario: ", usuario["user"] + " "+str(usuario["id"]))
+
+search_usuario = 2
+for usuario in usuarios:
+    if usuario["id"] == search_usuario:
+        print("Usuario Encontrado: ", usuario["user"])
+
+
+# Bucle FOR usando RANGE
+for usuario in range(1,5):
+    print("Usuario ", usuario)
 
 
 # Bucle WHILE
 contador = 1
-while contador < 11: # Condicion que sea menor a 11 es True
+while contador < 5: # Condicion que sea menor a 11 es True
     print("Ejercicio ", contador)
+    #if contador == 3:
+    #    break
     contador = contador + 1
 
 num_jugadores = 0
@@ -22,8 +45,8 @@ while respuesta == 'y':
 print("El numero de jugadores al final es: ", str(num_jugadores))
 
 # Bucle dentro de otro bucle
-for seccion in range (1,5):
-    for alumno in range (1,9):
+for seccion in range (1,3):
+    for alumno in range (1,2):
         print("Alumno: ", alumno)
     print("Seccion: ", seccion)
 
